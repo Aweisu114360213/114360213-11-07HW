@@ -3,7 +3,7 @@
 
 char a;
 int main(void) {
-	printf("½Ð¿é¤J­^¤å¦r¥À");
+	printf("è«‹è¼¸å…¥è‹±æ–‡å­—æ¯");
 	scanf("%c",&a);
 	if (a >= 65 && a <= 90) {
 		printf("%c", (a+32));
@@ -12,7 +12,7 @@ int main(void) {
 		printf("%c", (a-32));
 	}
 	else{
-		printf("¿é¤J¿ù»~");
+		printf("è¼¸å…¥éŒ¯èª¤");
 	}
 	return 0;
 }
